@@ -57,7 +57,7 @@ public class ECKeyManagement {
 
     public static void main(String[] args) throws Exception {
         String walletPassword = "Test123";
-        String walletPath = "./src/test/sampleKeystores";
+        String walletPath = "./target/sampleKeystores";
 
         // Generate a random EC Key Pair
         ECKeyPair keyPair = generateECKeyPair();
