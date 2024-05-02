@@ -1,5 +1,5 @@
 <component name="ArtifactManager">
-  <artifact type="jar" name="KMM:jar">
+  <artifact type="jar" build-on-make="true" name="KMM:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/KMM_jar</output-path>
     <root id="archive" name="KMM.jar">
       <element id="directory" name="META-INF">
